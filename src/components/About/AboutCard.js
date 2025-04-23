@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Rohan Kakade </span>
             from <span className="purple"> Pune, India.</span>
             <br />
-            I am currently employed as a software developer at Spcl.
+            I am currently employed as a software developer at Fintech Solutions.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
