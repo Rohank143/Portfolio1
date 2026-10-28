@@ -11,25 +11,25 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Rohan Kakade </span>
             from <span className="purple"> Pune, India.</span>
             <br />
-            I am currently employed as a software developer at Fintech Solutions.
+            I am a software developer specializing in <span className="purple">Java, Spring Boot, Microservices</span>, and event-driven architectures.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from coding, some other activities that I love to do:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Exploring Distributed Systems & New Tech
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Contributing to Open Source & Hackathons
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Travelling & Outdoor Sports
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Strive to build scalable systems that make a real difference!"{" "}
           </p>
           <footer className="blockquote-footer">Rohan</footer>
         </blockquote>

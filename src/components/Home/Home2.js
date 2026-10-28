@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,31 +18,33 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a passionate software engineer with strong expertise in architecting
+              robust, scalable backend systems and distributed services.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I am proficient in core languages and enterprise frameworks like
               <i>
-                <b className="purple"> Java,Python And Javascript. </b>
+                <b className="purple"> Java, Spring Boot, Microservices, and Python.</b>
               </i>
               <br />
               <br />
-              and I’m currently delving into the exciting world of Machine Learning.;
-              
+              My primary areas of interest include building
+              <i>
+                <b className="purple"> High-Throughput Matching Engines</b>,{" "}
+                <b className="purple">Event-Driven Architectures with Apache Kafka</b>, and resilient{" "}
+                <b className="purple">RESTful APIs</b>.
+              </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Java</b> and
+              Whenever possible, I apply my passion for engineering production-grade systems using
+              <b className="purple"> Java</b> and modern infrastructure like
               <i>
-                <b className="purple">
-                  {" "}
-                  Spring boot Frameworks
-                </b>
+                <b className="purple"> Redis, SQL, Docker, and CI/CD pipelines</b>
               </i>
-              &nbsp; as well as
+              , paired with modern frontends in
               <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+                <b className="purple"> React.js</b>
+              </i>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -64,18 +65,17 @@ function Home2() {
                   href="https://github.com/Rohank143"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
               </li>
-              
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/rohan-kakade-317377272/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
